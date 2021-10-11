@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="FormCheckInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormStartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+</Project>
